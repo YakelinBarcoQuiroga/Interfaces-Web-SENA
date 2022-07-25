@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description"
+    content="Provide valuable, actionable feedback to your users with HTML5 form validation, via browser default behaviors or custom styles and JavaScript.">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.98.0">
+  <meta name="docsearch:version" content="5.2">
+  <title>Mya Company.com</title>
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/checkout/">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+  <!-- Custom styles for this template -->
+
+  <link href="styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="imagenes/Logo MYA Sales System.png" alt="LOGO MYA COMPANY" width="50" height="45">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item ">
+              <a href="index.html"
+                class="btn btn-outline-secondary d-flex align-items-center me-md-2 text-decoration-none text-white"
+                id="Home" aria-expanded="false">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                  class="bi bi-house-fill" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd"
+                    d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z" />
+                  <path fill-rule="evenodd"
+                    d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z" />
+                </svg>
+                Home
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a href="#"
+                class="btn btn-outline-secondary d-flex align-items-center me-md-2 text-decoration-none text-white"
+                id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+                <snap>Help</snap>
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                  class="bi bi-question-circle-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z" />
+                </svg>
+              </a>
+
+              <ul class="dropdown-menu  text-smalld-grid gap-1 p-2 rounded-3 mx-0 border-0 shadow w-220px"
+                aria-labelledby="dropdownUser2">
+                <li><a class="dropdown-item  dropdown-item-lightgray rounded-2 " href="help.html">Planes y Servicios</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item ">
+              <a href="Soporte.html"
+                class="btn btn-outline-secondary d-flex align-items-center me-md-2 text-decoration-none text-white"
+                id="Soporte" aria-expanded="false">
+                Soporte
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                  class="bi bi-info-circle-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z" />
+                </svg>
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a href="#"
+                class="btn  btn btn-outline-secondary  d-flex align-items-center me-md-2 text-decoration-none text-white"
+                id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                  class="bi bi-person-fill" viewBox="0 0 16 16">
+                  <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z">
+                  </path>
+                </svg>
+                Login
+              </a>
+              <ul class="dropdown-menu  text-smalld-grid gap-1 p-2 rounded-3 mx-0 border-0 shadow w-220px"
+                aria-labelledby="dropdownUser2">
+                <li><a class="dropdown-item  dropdown-item-lightgray rounded-2" href="login.html">Iniciar Sesion</a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item  dropdown-item-lightgray  rounded-2" href="registrarse.html">Registrarse</a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+              
+              </ul>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+  </header>
+  <hr class="b-example-divider ">
+  <div class="container" style="width: auto; padding-top: 5rem; padding-bottom: 5rem; height: auto;">
+    <div class="row justify-content-center ">
+      <div class="col-lg-8 ">
+
+        <!-- Brand Buttons -->
+        <div class="card shadow mb-4">
+          <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-dark fw-bold fs-3 text-center">REGISTRARSE</h6>
+          </div>
+          <div class="card-body">
+            <form class="row g-3 needs-validation" novalidate>
+              <div class="col-sm-6">
+                <label for="firstName" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                <div class="invalid-feedback">
+                  Nombre Requerido.
+                </div>
+              </div>
+
+              <div class="col-sm-6">
+                <label for="lastName" class="form-label">Apellido</label>
+                <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                <div class="invalid-feedback">
+                  Apellido Requerido.
+                </div>
+              </div>
+
+              <div class="col-sm-6">
+                <label for="telefono" class="form-label">Telefono</label>
+                <input type="tel" class="form-control" id="telefono" placeholder="" value="" required>
+                <div class="invalid-feedback">
+                  Telefono valido Requerido.
+                </div>
+              </div>
+
+              <div class="col-sm-6">
+                <label for="direccion" class="form-label">Direccion</label>
+                <input type="text" class="form-control" id="direccion" placeholder="" value="" required>
+                <div class="invalid-feedback">
+                  Direccion valida requerida.
+                </div>
+              </div>
+
+              <div class="col-12">
+                <label for="email" class="form-label">Email</label>
+                <div class="input-group has-validation">
+                  <span class="input-group-text">@</span>
+                  <input type="email" class="form-control" id="email" placeholder="" required>
+                  <div class="invalid-feedback">
+                    Email valido Requerido.
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <label for="username" class="form-label">Username</label>
+                <input type="text" class="form-control" id="username" placeholder="" value="" required>
+                <div class="invalid-feedback">
+                  Username valido Requerido.
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <label for="password" class="form-label">Contraseña</label>
+                <input type="password" class="form-control" name="password" id="password" required>
+                <div class="invalid-feedback">
+                  Password valida Requerido.
+                </div>
+              </div>
+
+
+              <div class="form-check ">
+                <input type="checkbox" class="form-check-input" id="terminos-condiciones" required>
+                <label class="form-check-label" for="terminos-condiciones">He leido y acepto terminos y
+                  condiciones</label>
+              </div>
+
+              <div class="d-grid gap-2 col-8 mx-auto" style="margin-top: 2rem;">
+                <button type="submit" class="btn btn-primary fs-5 fw-bold"
+                  style="border-radius: 1rem">REGISTRARSE</button>
+              </div>
+            </form>
+
+            <!-- Brand Buttons -->
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr class="b-example-divider">
+
+  <main>
+    <!-- FOOTER -->
+    <div class="container">
+      <footer class="py-4">
+        <div class="row justify-content-around border-bottom pb-3 mb-3">
+          <div class="col-6 col-md-3 mb-3">
+            <h5 class="fs-2 fw-bold"><strong>MYA COMANY</strong></h5>
+            <a class="navbar-brand" href="index.html">
+              <img src="imagenes/Logo MYA Sales System.png" class="figure-img img-fluid rounded" alt="LOGO MYA COMPANY"
+                width="60" height="60">
+            </a>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Quienes Somos</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Planes</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Terminos y condiciones</a></li>
+            </ul>
+
+          </div>
+
+          <div class="col-6 col-md-3 mb-3">
+            <h5 class="fs-md-2 fs-lg-4"><strong>CONTACTANOS</strong></h5>
+            <ul class="list-unstyled text-small">
+
+              <li>
+                <a href="#" class="text-decoration-none text-dark">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-whatsapp text-success" viewBox="0 0 16 16">
+                    <path
+                      d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+                  </svg>
+                  +57 3215216122
+                </a>
+
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-dark">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-facebook text-primary" viewBox="0 0 16 16">
+                    <path
+                      d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z">
+                    </path>
+                  </svg>
+                  Facebook
+                </a>
+
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-dark">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-envelope-fill text-danger" viewBox="0 0 16 16">
+                    <path
+                      d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" />
+                  </svg>
+                  myacompany@gmail.com
+                </a>
+
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="text-center text-muted">&copy; Copyright 2022 MYA COMPANY</p>
+
+
+      </footer>
+
+      <!-- Boton Descargar desde google play -->
+
+      <a href="https://play.google.com/store/" target="_blank" class="link-block-google-play w-inline-block"><img
+          src="https://assets.website-files.com/613658193a97c8a9e51ed56a/6140a91d2b2dec171bd36e8e_google_play.svg"
+          loading="lazy" alt="Boton PlayStore" class="button-fixed "></a>
+
+      <!-- Fin Boton Descargar desde google play -->
+    </div>
+  </main>
+
+
+  <script src="form-validation.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>

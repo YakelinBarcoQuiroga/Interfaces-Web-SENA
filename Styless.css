@@ -1,0 +1,122 @@
+:root{
+    --bg-black-claro: #202124;
+    
+}
+
+.nav-mya{
+    padding-top: 0.3rem;
+    background-color: var(--bg-black-claro);
+}
+.nav-mya ul{
+    /* margin-left: 30px; */
+}
+.nav-mya ul li{
+    /* width: 200px !important; */
+}
+.nav-mya ul li button{
+    color: whitesmoke;
+    font-size: 1.2rem;
+    width: 100%;
+    padding: 0.5rem 0rem 0.5rem 0rem;
+}
+.nav-mya ul li button:hover{
+    color: rgb(130, 136, 250) !important;
+}
+.panel-lateral{
+    background-color: var(--bg-black-claro);
+    width: 15%;
+    /* padding-right: 0.8rem; */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.img__panel-lateral{
+    margin: 0rem auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: 80%
+}
+.img__panel-lateral img{
+    width: 100%;
+}
+.panel-lateral__button{
+    /* background-color: aliceblue; */
+    width: 80% !important;
+    margin-left: 1.2rem;
+}
+.panel-lateral__button button{
+    color: white !important;
+    font-size: 1.2rem;
+}
+.title-rol{
+    background-color: var(--bg-black-claro);
+}
+.title-rol h4{
+    margin: 0;
+    color: white;
+    font-family: 'Stick No Bills', sans-serif;
+}
+.panel-lateral__button button{
+    color: white;
+    background-color: #45454546 !important;
+    /* border: solid white 1px !important; */
+    margin-bottom: 5px;
+}
+.panel-lateral__button button:hover{
+    background-color: #28292C !important;
+    color: black;
+}
+.panel-lateral__button .active{
+    background-color: #3C4043 !important;
+    color: white !important; 
+}
+.title-rol{
+    display: flex;
+    /* border-bottom: solid white 1px; */
+    align-items: center;
+}
+.title-rol img {
+    margin: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1.5rem;
+    width: 4rem;
+}
+
+
+
+.title-principal {
+    background: 50% 100%/50% 50% no-repeat radial-gradient(ellipse at bottom, #fff, transparent, transparent);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 1.8rem;
+    font-family: "Source Sans Pro", sans-serif;
+    -webkit-animation: reveal 3000ms ease-in-out forwards 200ms, glow 2500ms linear infinite 2000ms;
+            animation: reveal 3000ms ease-in-out forwards 200ms, glow 2500ms linear infinite 2000ms;
+  }
+  @-webkit-keyframes reveal {
+    80% {
+      letter-spacing: 8px;
+    }
+    100% {
+      background-size: 300% 300%;
+    }
+  }
+  @keyframes reveal {
+    80% {
+      letter-spacing: 8px;
+    }
+    100% {
+      background-size: 300% 300%;
+    }
+  }
+  @-webkit-keyframes glow {
+    40% {
+      text-shadow: 0 0 8px #fff;
+    }
+  }
+  @keyframes glow {
+    40% {
+      text-shadow: 0 0 8px #fff;
+    }
+  }

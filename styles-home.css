@@ -1,0 +1,232 @@
+.home-mya{
+    width: 100%;
+    max-width: 1400px;
+    font-family: 'Dosis', sans-serif;
+}
+.introduction-mya{
+    width: 100%;
+    /* height: 800px; */
+    position: relative;
+    padding-top: 3rem;
+    padding-bottom: 15rem;
+    /* background-image: linear-gradient( to bottom,  #212529 8.8%, rgba(127,146,166,1) 95.1% ); */
+    background: linear-gradient(to bottom, #212529, #212529, #2c3036, #474c51, #51555a, #5b5f63);
+}
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.home-info{
+    width: 90%;
+    display: flex;
+    margin: 0rem auto;
+    margin-top: 5rem;
+    flex-direction: row-reverse;
+    /* background-color: aqua; */
+}
+.vector-home img{
+    width: 100%;
+}
+.info{
+    /* background-color: aqua; */
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.info h1{
+    font-size: 4rem;
+    color: white;
+}
+.info p{
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    color: rgb(215, 215, 215);
+}
+.info a{
+    display: inline-block;
+    text-decoration: none;
+    background: linear-gradient(to left, #6464c1, #c38ff4);
+    padding: 1rem 3rem;
+    margin: 2rem 1rem 0rem 0rem;
+    border-radius: 10px;
+    color: white;
+    animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+.info a:hover{
+    background: linear-gradient(to left, #c38ff4, #6464c1);
+}
+.buttoms-home div{
+    display: flex;
+}
+.conte-target-info{
+    width: 90%;
+    margin: 0rem auto;
+}
+.conte-target-info h2{
+    text-align: center;
+    margin: 2rem;
+}
+.target-p img{
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.target-productos{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.target-p{
+    width: 18rem;
+    margin: 1rem 2rem 2rem 1rem;
+    padding: 1rem 1.5rem;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+.zoom:hover {
+    transform: scale(1.1);
+}
+.zoom {
+    transition: transform 0.5s;
+}
+.testinomios-clientes{
+    width: 80%;
+    margin: 0rem auto;
+}
+.testinomios-clientes .move{
+    display: flex;
+}
+/* stilos carrusel */
+.title-test h2{
+    text-align: center;
+    margin-top: 14rem;
+}
+.testi-target{
+    width: 75%;
+    /* height: 80%; */
+    margin: 3rem auto;
+    border-radius: 10px;
+    background-color: rgb(244, 244, 244);
+    display: flex;
+    flex-direction: column;
+}
+.estrellas{
+    color: rgb(236, 154, 255);
+    margin: 2rem auto;
+    margin-bottom: 1rem;
+}
+.testi-target p{
+    margin: 0rem 2rem;
+    text-align: center;
+}
+.img-testi{
+    width: 6rem;
+    height: 6rem;
+    margin: 2rem auto;
+    margin-bottom: 1rem;
+    border-radius: 50%;
+    border: solid rgb(243, 161, 243);
+}
+.img-testi img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.testi-target h5{
+    margin: 0rem auto;
+    margin-bottom: 2rem;
+}
+#carousel{
+    background-color: white;
+}
+.bcolor-morado{
+    background-color: #6464c176;
+    border-radius: 50%;
+}
+
+/* Estilos para desarrlladores */
+
+.desarrolladores{
+    width: 100%;
+    max-width: 1400px;
+}
+.container-desarrolladores{
+    width: 80%;
+    margin: 0rem auto;
+}
+.container-desarrolladores h2{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.cont-desa-card{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.desa-card{
+    border-radius: 10px;
+    width: 18rem;
+    margin: 1rem;
+    text-align: center;
+}
+.desa-card h5{
+    margin-bottom: 1rem;
+}
+.desa-img{
+    width: 100%;
+    margin: 0rem auto;
+    margin-bottom: 1rem;
+    border-radius: 50%;
+}
+.desa-img img{
+    border-radius: 50%;
+    width: 100%;
+}
+.desa-card a{
+    display: block;
+    width: 70%;
+    margin: 0rem auto;
+    text-decoration: none;
+    margin-bottom: 1rem;
+    color: #6464c1;
+}
+.desa-icons{
+    text-align: center;
+    color: #c38ff4;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.desa-icons i:hover{
+    color: #6464c1;
+    cursor: pointer;
+}
+.desa-icons i{
+    margin-right: 1rem;
+}
+
+/* estilos para el blog */
+
+.blog-container{
+    width: 22rem;
+    margin: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    padding-bottom: 2rem;
+    border-radius: 5px;
+}
+.blog-img{
+    width: 100%;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.blog-img img{
+    width: 100%;
+}
+.container-blog{
+    width: 90%;
+    margin: 0rem auto;
+    margin-bottom: 3rem;
+}
+.container-blog h2{
+    text-align: center;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
